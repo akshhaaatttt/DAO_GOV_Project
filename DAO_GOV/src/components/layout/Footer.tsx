@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         <div className="pt-8 mt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-white/80">
-              &copy; {new Date().getFullYear()} @lovable-tagger. All rights reserved.
+              &copy; {new Date().getFullYear()} @akshhaaatttt. All rights reserved.
             </p>
             <p className="text-sm text-white/80 mt-2 md:mt-0">
               Powered by <a href="https://stellar.org" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Stellar Network</a>
