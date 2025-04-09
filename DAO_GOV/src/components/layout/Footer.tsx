@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               <div className="space-y-3">
                 <h3 className="font-medium text-white">Connect</h3>
                 <div className="flex space-x-3">
-                  <a href="https://github.com/akshhaaatttt" className="text-white/80 hover:text-white transition-colors">
+                  <a href="https://github.com/ak-tagger" className="text-white/80 hover:text-white transition-colors">
                     <Github size={20} />
                   </a>
                   <a href="https://x.com/Akshat151105/status/1876298066514640955?t=P3vSOMmDsqghYjNTxWXvfQ&s=19" className="text-white/80 hover:text-white transition-colors">
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         <div className="pt-8 mt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-white/80">
-              &copy; {new Date().getFullYear()} @akshhaaatttt. All rights reserved.
+              &copy; {new Date().getFullYear()} @ak-tagger. All rights reserved.
             </p>
             <p className="text-sm text-white/80 mt-2 md:mt-0">
               Powered by <a href="https://stellar.org" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Stellar Network</a>

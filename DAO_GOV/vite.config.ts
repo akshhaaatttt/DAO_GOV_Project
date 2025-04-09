@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from "akshhaaatttt";
+import { componentTagger } from "ak-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
