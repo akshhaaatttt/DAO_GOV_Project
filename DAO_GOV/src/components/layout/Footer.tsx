@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               <div className="space-y-3">
                 <h3 className="font-medium text-white">Connect</h3>
                 <div className="flex space-x-3">
-                  <a href="https://github.com/lovable-tagger" className="text-white/80 hover:text-white transition-colors">
+                  <a href="https://github.com/akshhaaatttt" className="text-white/80 hover:text-white transition-colors">
                     <Github size={20} />
                   </a>
                   <a href="https://x.com/Akshat151105/status/1876298066514640955?t=P3vSOMmDsqghYjNTxWXvfQ&s=19" className="text-white/80 hover:text-white transition-colors">
