@@ -1,0 +1,112 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 100% 94%;
+    --foreground: 0 0% 0%;
+
+    --card: 60 100% 94%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 60 100% 94%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 303 32% 65%;
+    --primary-foreground: 60 100% 94%;
+
+    --secondary: 60 100% 94%;
+    --secondary-foreground: 303 32% 65%;
+
+    --muted: 60 100% 90%;
+    --muted-foreground: 303 32% 45%;
+
+    --accent: 303 32% 85%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 303 20% 75%;
+    --input: 303 20% 75%;
+    --ring: 303 32% 65%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 303 32% 65% / 0.85;
+    --sidebar-foreground: 60 100% 94%;
+    --sidebar-primary: 60 100% 94%;
+    --sidebar-primary-foreground: 303 32% 65%;
+    --sidebar-accent: 303 32% 50%;
+    --sidebar-accent-foreground: 60 100% 94%;
+    --sidebar-border: 303 32% 45%;
+    --sidebar-ring: 60 100% 94%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted/30 rounded;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted rounded hover:bg-muted/80 transition-colors;
+  }
+}
+
+@layer components {
+  .stellar-card {
+    @apply bg-card/80 backdrop-blur-sm border border-muted rounded-lg shadow-lg;
+  }
+  
+  .cosmic-glow {
+    @apply relative;
+  }
+  
+  .cosmic-glow::after {
+    content: "";
+    @apply absolute inset-0 -z-10 bg-gradient-to-br from-primary to-accent rounded-lg blur-xl opacity-10;
+  }
+  
+  .freighter-connect-button {
+    @apply flex items-center justify-center gap-2 px-4 py-2 rounded-md 
+    bg-gradient-to-br from-primary to-primary/80 font-medium text-primary-foreground transition-all duration-200
+    shadow-md hover:shadow-lg hover:shadow-primary/30 active:scale-95;
+    background-color: #723480 !important;
+    color: white !important;
+  }
+
+  .animated-gradient {
+    @apply relative overflow-hidden;
+  }
+
+  .animated-gradient::before {
+    content: "";
+    @apply absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary/30 opacity-70 animate-spin-slow;
+    filter: blur(40px);
+    z-index: -1;
+  }
+  
+  /* Highlighted button styles */
+  .btn-highlight {
+    @apply shadow-md hover:shadow-lg transition-all duration-200 hover:translate-y-[-2px];
+    background-color: #723480 !important;
+    color: white !important;
+  }
+}
