@@ -249,12 +249,12 @@ const Settings = () => {
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <Label>Contract Address</Label>
             <div className="p-3 bg-muted/30 rounded-md font-mono text-sm break-all">
               CCSRPPOI5QKGKX4MIDJGUDGHEXY7VXWFSXDFC454QZCK7NQ4LGMXI4W5
             </div>
-          </div>
+          </div> */}
           
           <div className="space-y-2">
             <Label>Network</Label>

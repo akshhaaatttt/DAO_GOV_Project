@@ -103,12 +103,12 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isSidebarOpen }) => {
       </div>
       
       {/* Contract Address Display */}
-      <div className="w-full px-4 py-2 text-center bg-background/60 backdrop-blur-sm border-b border-border">
+      {/* <div className="w-full px-4 py-2 text-center bg-background/60 backdrop-blur-sm border-b border-border">
         <p className="text-xs font-mono">
           <span className="mr-2 text-muted-foreground">Contract Address:</span>
           <span className="font-medium" style={{ color: '#723480' }}>CBWMMKKCMBG6NNWHUQWTNQQBEQVLNH7FA5TBZOLREH7GQ26XUTDVS3CJ</span>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
