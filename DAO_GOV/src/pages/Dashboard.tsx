@@ -667,13 +667,13 @@ const Dashboard = () => {
                 ></iframe>
               </div>
               <div className="flex justify-center">
-                <Button 
+{/*                 <Button 
                   variant="outline" 
                   className="bg-stellar-gradient hover:bg-stellar-gradient/90"
                   onClick={() => navigate('/tutorial')}
                 >
                   View Full Tutorial
-                </Button>
+                </Button> */}
               </div>
             </div>
             <div className="space-y-4">
